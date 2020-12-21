@@ -12,6 +12,6 @@ PATH=$PATH:$HOME/bin
 export PATH
 
 # stole keychain install info from here: https://www.cyberciti.biz/faq/installing-keychain-manager-for-ssh-agent-on-centos-linux-6-7/
-/usr/bin/keychain $HOME/.ssh/id_rsa
+/usr/bin/keychain --timeout 4000  $HOME/.ssh/id_rsa
 source $HOME/.keychain/$HOSTNAME-sh
 
