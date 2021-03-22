@@ -1,0 +1,22 @@
+# basic info / config
+git config --global user.name "brett-szyjka-im"
+git config --global user.email brett.szyjka@extendhealth.com
+git config --global init.defaultBranch main
+
+# useful aliases
+git config --global alias.st status
+git config --global alias.ci commit
+git config --global alias.br branch
+git config --global alias.co checkout
+git config --global alias.last 'log -1 HEAD'
+git config --global alias.auto 'commit --all --allow-empty-message'
+
+# set default editor to sublime
+git config --global core.editor "'C:/Program Files/Sublime Text 3/subl.exe' --new-window --wait"
+
+# references
+# https://sublime-text-unofficial-documentation.readthedocs.io/en/latest/command_line/command_line.html
+# https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+# Helpers
+# Inside the .git folder for your project, there is a file /info/exclude. This file has the exact same structure as a .gitignore file, so you can add the file patterns for any files which must be excluded locally, inside that file.
