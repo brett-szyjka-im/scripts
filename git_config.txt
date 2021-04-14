@@ -13,6 +13,8 @@ git config --global alias.last 'log -1 HEAD'
 
 # set default editor to sublime
 git config --global core.editor "'C:/Program Files/Sublime Text 3/subl.exe' --new-window --wait"
+git config --global core.pager "delta --light"
+# git config --global core.pager "delta --dark"
 
 # references
 # https://sublime-text-unofficial-documentation.readthedocs.io/en/latest/command_line/command_line.html
