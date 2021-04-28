@@ -24,10 +24,10 @@ function reload-profile {
 }
 
 function get-winver {
-  write-output [System.Environment]::OSVersion.Version
+  # rite-output ([System.Environment]::OSVersion.Version)
 }
 
-function profile-functions {
+function get-profilefunctions {
   write-output 'edit-profile'
   write-output 'edit-terminalconfig'
   write-output 'update-powershell'
